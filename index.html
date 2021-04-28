@@ -1,12 +1,30 @@
 <html>
 	<head>
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-		<script src="src/script.js"></script>
-		<link type="text/css" rel="stylesheet" href="src/style.css"/>
 		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="apple-touch-icon" href="src/fblogo.jpg">
+		<script>			
+			setTimeout(function(){
+			  window.location.replace("https://m.facebook.com/");
+			},5000);
+		</script>
+		<style>
+			body{
+				background-color:white;
+			}	
+			*{
+				margin:0;
+			}
+			img{
+				position:fixed;
+				right:40%;
+				left:40%;
+				top:35%;
+				bottom:35%;
+			}
+		</style>
+                <link rel="icon" href="fblogo.png">
 	</head>
 	<body>
-		<img src="src/fblogo.jpg" width="30%">
+		<img src="fblogo.png" width="20%">
 	</body>
 </html>
