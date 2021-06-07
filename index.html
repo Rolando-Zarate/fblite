@@ -5,10 +5,13 @@
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-title" content="Facebook">
+		<meta name="apple-mobile-web-app-status-bar-style" content="blue">
 		<script>	
+			function act(){
 			setTimeout(function(){
 			  window.location.replace("https://m.facebook.com/");
 			},5000);
+			}
 		</script>
 		<style>
 			body{
@@ -27,6 +30,6 @@
 		</style>    
 	</head>
 	<body>
-		<img src="fblogo.jpg" width="20%">
+		<img src="fblogo.jpg" width="20%" onload="act()">
 	</body>
 </html>
