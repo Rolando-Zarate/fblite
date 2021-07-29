@@ -13,6 +13,7 @@
 			  		window.location.replace("https://m.facebook.com/");
 				},5000);
 			}
+			document.getElementsById("img").onload = act;
 		</script>
 		<style>
 			body{
@@ -32,6 +33,6 @@
 		</style>    
 	</head>
 	<body>
-		<img src="fblogo.jpg" onload="act()">
+		<img src="fblogo.jpg" id="img">
 	</body>
 </html>
