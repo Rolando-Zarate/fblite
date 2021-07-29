@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="apple-touch-icon" size="192x192" href="fblogo.jpg">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-title" content="Facebook">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<script>	
-			function act(){
-				setTimeout(function(){
-			  		window.location.replace("https://m.facebook.com/");
-				},5000);
-			}
-			document.getElementById("img").onload = act;
-		</script>
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-title" content="YouTube">	
+		<link rel="apple-touch-icon" size="192x192" href="fblogo.jpg">
 		<style>
 			body{
 				background-color:white;
@@ -24,15 +15,23 @@
 			}
 			img{
 				position:fixed;
-				right:40%;
-				left:40%;
+				right:35%;
+				left:35%;
 				top:35%;
 				bottom:35%;
-				width:20%;
+				width:30%;
 			}
-		</style>    
+		</style>
 	</head>
 	<body>
 		<img src="fblogo.jpg" id="img">
+		<script>		
+			function act(){
+				setTimeout(function(){
+			        window.location.replace("https://m.youtube.com/");
+			    },5000);
+			}
+			document.getElementById("img").onload = act;
+		</script>
 	</body>
 </html>
